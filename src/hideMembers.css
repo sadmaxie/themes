@@ -1,12 +1,3 @@
-/**
- * @name         Hidden Server Members
- * @description  Hides server members.
- * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hideMembers.css
- * @author       rmkx
- * @version      1.0 
- */
-
 :root {
     --members-hiding-width: 2.9%; /*Amount that will be shown when the server's members panel hides | Default 2.9%*/
     --showing-width: 13.5%; /*Amount that will be shown when the panels show | Default 13.5%*/

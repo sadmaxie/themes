@@ -16,7 +16,9 @@
     --popout-blur: 2px; /*Changes the blur of elements that appear on screen*/
     --bg-opacity: 1; /*Changes the opacity of the background*/
     --links: rgb(109, 143, 196); /*Color for links*/
-    --panel-boxes: rgba(0, 0, 0, 0.55); /*Changes the background of the surrounded panels*/
+    --panel-boxes: rgba(15, 6, 6, 0.55); /*Changes the background of the surrounded panels*/
+    --panel-chat-channle: rgba(15, 6, 6, 0.0);
+    --color-black: #000;
     --second-panel-bg: rgba(0, 0, 0, 0.5); /*changes the bg of panels that come out, like right clicking on a user*/
     --panel-border: 0px solid rgb(70, 69, 69); /*Changes the borders of the surrounded panels*/
     --panel-border-radius: 8px; /*Changes the radius of the surrounded panels*/
@@ -25,20 +27,20 @@
     --buttons-background: rgba(0, 0, 0, 0.3); /*Changes the color of the buttons*/
     --buttons-border: 0px solid rgb(70, 69, 69); /*Changes the color of the buttons*/
     --buttons-radius: 8px; /*Changes the radius of the buttons*/
-    --buttons-color: white; /*Changes the color of the button text*/
+    --buttons-color: rgba(255, 0, 0, 0.651); /*Changes the color of the button text*/
     /*Changes the color of the background when hovering*/
     --element-hovered: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23, 201, 246, 0.527) 59%, rgba(15,8,74,0.2049020291710434) 87%, rgba(6,1,42,0.0536415249693627) 96%);
     /*Code for the gradient*/
     --underline-gradient: linear-gradient(195deg, rgba(0,182,122,0.39537821964723385) 14%, rgba(0,241,255,0.3785714969581583) 35%, rgba(23,114,246,0.22170875186011907) 59%, rgba(15, 8, 74, 0.473) 87%);
     --settings-width: 60%; /*Width for the settings window*/
     --settings-heigth: 85%; /*Width for the settings window*/
-    --icon-padding: 55px; /*Changes the padding between the icon and the text | Default 35px*/
+    --icon-padding: 50px; /*Changes the padding between the icon and the text | Default 35px*/
 }
 
 .theme-dark, .theme-light {
     --channels-default: white;
-    --text-muted: rgb(255, 255, 255);
-    --background-floating: var(--panel-boxes);
+    --text-muted: rgba(255, 255, 255, 0.63);
+    --background-floating: var(--panel-chat-channle);
     --header-secondary: rgb(160, 162, 165);
     --text-link: var(--links);
 }
@@ -333,7 +335,7 @@
 /*Server channel panels*/
 
 .sidebar-2K8pFh { /*Sidebar panel for server channels and user status*/
-    margin-left: 1px;
+    margin-left: 0px;
     margin-right: 2px;
     border-radius: var(--panel-border-radius);
     z-index: 0;
@@ -360,7 +362,7 @@
 .membersGroup-v9BXpm { /*Server member's roles*/
     padding: 12px 8px 0 10px;
     text-align: center;
-    font-size: 80%;
+    font-size:80%;
 }
 
     .membersGroup-v9BXpm::after { /*Gradient after member's roles*/
@@ -394,9 +396,9 @@
 .containerDefault--pIXnN { /*Server channel default*/
     border: var(--panel-border);
     border-radius: var(--panel-border-radius);
-    margin-bottom: 3px;
+    margin-bottom: 0px;
     background-color: var(--panel-boxes);
-    background: var(--panel-boxes);
+    background: var(---panel-chat-channles);
 }
 
     .containerDefault--pIXnN .modeSelected-346R90 { /*Server channel selected*/
@@ -420,7 +422,7 @@
 }
 
 .sidebar-2K8pFh:hover .containerDefault--pIXnN { /*Makes the channel background change when you open the panel*/
-    background-color: var(--panel-boxes);
+    background-color: var(--panel-chat-channle);
 }
 
     .sidebar-2K8pFh:hover .containerDefault--pIXnN .modeSelected-346R90 { /*Changes the background of the selected channel when hovering the panel*/
@@ -438,7 +440,7 @@
 
 .header-2V-4Sw { /*Server name panel*/
     border-radius: var(--panel-border-radius);
-    border-top-left-radius: 0px;
+    border-top-left-radius: 3px;
     background-color: var(--panel-boxes);
 }
 

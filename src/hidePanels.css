@@ -1,12 +1,3 @@
-/**
- * @name         Hide Discord Panels
- * @description  Hides the Friends, Server Channel and Server Members panels with some animations.
- * @donate       https://bit.ly/3fnzq1Z
- * @source       https://github.com/rmkx/rmkx.github.io/blob/main/src/hidePanels.css
- * @author       rmkx
- * @version      1.0 
- */
-
 :root {
     --server-hiding-width: 50px; /*Amount that will be shown when the panels hide | Default 50px*/
     --members-hiding-width: 55px; /*Amount that will be shown when the server's members panel hides | Default 55px*/

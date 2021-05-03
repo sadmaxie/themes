@@ -39,7 +39,7 @@
     --messages-padding: 6px; /*size of place btw messages*/
     --color-black: #000;
     --messages-radius: 8px;
-    --messages-color: rgba(0, 0, 0, 0.158);
+    --messages-color: rgba(0, 0, 0, 0.301);
     --sidebar-color: rgba(0, 0, 0, 0.5);
     /*new test blur profile*/
     --transition-time: 250ms;
@@ -73,7 +73,7 @@
 .channelHeader-3Gd2xq:before,
 .quickswitcher-3JagVE:before,
 .popout-38lTFE:before,
-.wrapper-1rqM3x:before,
+/*.wrapper-1rqM3x:before, the color on emojies  backgrbackground */
 .messagesPopoutWrap-1MQ1bW:before,
 .container-enaOkj:before,
 .noiseCancellationPopout-iRK2A0:before,
@@ -100,9 +100,9 @@
 .subscribeTooltipWrapper-32-Ce8:before,
 .container-3LUQwT:before,
 .popout-VcNcHB:before,
-.container-3XJ8ns:before,
+.container-3XJ8ns:before, this is for emojie back color
 .attachPopout-36hjtN:before,
-.contentWrapper-SvZHNd:before,
+/*.contentWrapper-SvZHNd:before, the back  bulr of emjies backgtbackground*/
 .autocomplete-3l_oCd:before,
 .autocomplete-1vrmpx:before,
 .container-2VW0UT:before,
@@ -121,6 +121,7 @@
     transition: var(--transition-time) var(--transition-type);
     z-index: -1;
 }
+
 
 /*message edit*/
 .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT {

@@ -54,12 +54,18 @@
 
 /*new*/
 
-/*the backgrbackground of profiprofile*/
+/*the background of profiprofile*/
 .backdrop-1wrmKB,
 .backdropWithLayer-3_uhz4 {
     background-color: rgba(255, 255, 255, 0) !important;
     opacity: 1 !important;
 }
+
+/*for the profie back color*/ /*
+#app-mount .modal-3c3bKg .root-SR8cQa {
+  background: white;
+}
+*/
 
 /*for the top  bar*/
 .appMount-3lHmkl [role=menu]:before,
@@ -81,7 +87,7 @@
     z-index: -1;
 }
 
-/*add frifriends to  DM bannle backgrbackground color
+/*add friends to  DM bannle backgrbackground color
 .root-1gCeng:before,
 */
 
